@@ -27,7 +27,7 @@ function Navbar() {
     },
   ]
   return (
-    <div className='mx-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md font-sans fixed top-0 left-0 right-0 h-16'>
+    <div className='mx-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md font-sans fixed top-0 left-0 right-0 h-16 z-50 bg-white'>
       <div className='flex justify-between items-center h-16 '>
         <div className='flex space-x-2'>
           <img src={pic} className='h-12 w-12 rounded-full' alt=''></img>
